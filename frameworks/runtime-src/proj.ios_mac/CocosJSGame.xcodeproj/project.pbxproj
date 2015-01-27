@@ -14,6 +14,7 @@
 		1AD7E0A818C9DB93004817A6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BF21418C9DB5900FB0E1C /* main.js */; };
 		1AD7E0A918C9DBE3004817A6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BF21418C9DB5900FB0E1C /* main.js */; };
 		1AE159EC18C9DF3600FCA372 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A081B18C9DF05005C6854 /* project.json */; };
+		2E8D9E231A77D0AE00973445 /* jsb_kenko_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9E211A77D0AE00973445 /* jsb_kenko_auto.cpp */; };
 		3E12D1A51957FA03002FF0FD /* script in Resources */ = {isa = PBXBuildFile; fileRef = 3E12D1A41957FA03002FF0FD /* script */; };
 		3E12D1A61957FA03002FF0FD /* script in Resources */ = {isa = PBXBuildFile; fileRef = 3E12D1A41957FA03002FF0FD /* script */; };
 		3E12D1A91957FB0E002FF0FD /* Protos.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E12D1A71957FB0E002FF0FD /* Protos.pb.cc */; };
@@ -183,6 +184,8 @@
 		1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1A96A4F2174A3432008653A9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../js-bindings/cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
 		1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../../js-bindings/cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		2E8D9E211A77D0AE00973445 /* jsb_kenko_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_kenko_auto.cpp; sourceTree = "<group>"; };
+		2E8D9E221A77D0AE00973445 /* jsb_kenko_auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsb_kenko_auto.h; sourceTree = "<group>"; };
 		3E12D1A41957FA03002FF0FD /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = "../../js-bindings/bindings/script"; sourceTree = "<group>"; };
 		3E12D1A71957FB0E002FF0FD /* Protos.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Protos.pb.cc; sourceTree = "<group>"; };
 		3E12D1A81957FB0E002FF0FD /* Protos.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protos.pb.h; sourceTree = "<group>"; };
@@ -580,6 +583,8 @@
 				C026DCC818928A2400B3EDE8 /* Runtime_ios-mac.mm */,
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
+				2E8D9E211A77D0AE00973445 /* jsb_kenko_auto.cpp */,
+				2E8D9E221A77D0AE00973445 /* jsb_kenko_auto.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -806,6 +811,7 @@
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				C00FD4BA1938628E00C6382D /* Runtime.cpp in Sources */,
 				3E12D1DF1957FB18002FF0FD /* message_lite.cc in Sources */,
+				2E8D9E231A77D0AE00973445 /* jsb_kenko_auto.cpp in Sources */,
 				C06C37881918E81100617BED /* ConfigParser.cpp in Sources */,
 				3E12D1DD1957FB18002FF0FD /* zero_copy_stream_impl_lite.cc in Sources */,
 				C00FD4B61938628E00C6382D /* PlayEnable_png.cpp in Sources */,
