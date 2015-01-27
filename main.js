@@ -55,5 +55,7 @@ cc.game.onStart = function(){
     cc.LoaderScene.preload(g_resources, function () {
         cc.director.runScene(new HelloWorldScene());
     }, this);
+    
+    cc.log("js get from c++: " + osInfo()); 
 };
 cc.game.run();

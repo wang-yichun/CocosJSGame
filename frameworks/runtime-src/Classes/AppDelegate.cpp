@@ -28,6 +28,8 @@
 #include "Runtime.h"
 #include "ConfigParser.h"
 
+#include "jsb_kenko_auto.h"
+
 USING_NS_CC;
 using namespace CocosDenshion;
 
@@ -101,6 +103,8 @@ bool AppDelegate::applicationDidFinishLaunching()
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS|| CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
     sc->addRegisterCallback(JavaScriptObjCBridge::_js_register);
 #endif
+    
+    sc->addRegisterCallback(register_jsb_kenko_all);
     
 #if (COCOS2D_DEBUG > 0)
     // NOTE:Please don't remove this call if you want to debug with Cocos Code IDE
